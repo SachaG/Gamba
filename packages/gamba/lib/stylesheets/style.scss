@@ -1,0 +1,120 @@
+$spacing: 20px;
+
+$smaller-font: 0.8rem;
+$small-font: 0.9rem;
+$medium-font: 1rem;
+$large-font: 1.25rem;
+$larger-font: 1.35rem;
+$largest-font: 2.5rem;
+
+$headerHeightSmall: 50px;
+$headerHeightMedium: 64px;
+
+$white: #ffffff;
+$yellow: #FFEB00;
+$light-grey: #ECECEC;
+$lighter-grey: #f2f2f2;
+$lightest-grey: #F6F6F6;
+$medium-grey: #595959;
+$dark-grey: #3C4645;
+$blue: #3A78DF;
+$green: #78F0BE;
+$darker-green: #70DBAE;
+
+$primary-color: $green;
+
+$text-color: $dark-grey;
+$text-color-medium: $medium-grey;
+
+$small-break:  850px;
+$medium-break: 1000px;
+
+@mixin small(){ // smaller than small-break
+  @media screen and (max-width: $small-break) {
+    @content;
+  }
+}
+@mixin small-medium(){ // smaller than medium-break
+  @media screen and (max-width: $medium-break) {
+    @content;
+  }
+}
+@mixin medium(){ // between small and medium-break
+  @media screen and (min-width: $small-break) and (max-width: $medium-break) {
+    @content;
+  }
+}
+@mixin medium-large(){ // larger than small-break
+  @media screen and (min-width: $small-break) {
+    @content;
+  }
+}
+@mixin large(){ // larger than medium-break
+  @media screen and (min-width: $medium-break) {
+    @content;
+  }
+}
+
+.posts-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.posts-item-content{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0;
+}
+
+.posts-item-title{
+  padding: $spacing/2;
+  margin-bottom: 0;
+}
+
+.posts-categories{
+  padding: 0 $spacing/2;
+}
+
+.posts-item-spacer{
+  flex: 1;
+}
+.posts-item-place{
+  border-top: 1px solid $light-grey;
+  padding: $spacing/2;
+  font-size: $smaller-font;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  a{
+    font-weight: normal;
+    &:link, &:visited{
+      color: $text-color-medium;
+      opacity: 0.6;
+    }
+    &:hover{
+      color: $primary-color;
+      opacity: 1;
+    }
+  }
+  &:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    background: linear-gradient( 90deg, rgba(255,255,255,0), rgba(255,255,255,1) 80%, white );
+  }
+}
+
+.suggest-category-link{
+  margin-bottom: 1rem;
+  display: block;
+  margin-top: -0.5rem;
+  font-size: 14px;
+  @include medium-large{
+    margin-left: 25.8%;
+  }
+}
