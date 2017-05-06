@@ -1,3 +1,5 @@
+@import 'react-select-plus.scss';
+
 $spacing: 20px;
 
 $smaller-font: 0.8rem;
@@ -53,6 +55,25 @@ $medium-break: 1000px;
   @media screen and (min-width: $medium-break) {
     @content;
   }
+}
+
+.header{
+  // border-bottom: 2px solid #BCAD98;
+}
+
+.logo-image{
+  @include medium-large{
+    margin-right: 15px;
+  }
+  img{
+    // margin-top: -5px;
+    // max-width: 120px;
+  }
+}
+
+.tagline{
+  font-style: italic;
+  opacity: 0.6;
 }
 
 .posts-item{
@@ -116,5 +137,13 @@ $medium-break: 1000px;
   font-size: 14px;
   @include medium-large{
     margin-left: 25.8%;
+  }
+}
+
+.categories-node-level-1{
+  &>.category-menu-item{
+    .category-menu-item-title{
+      pointer-events: none;
+    }
   }
 }

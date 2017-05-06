@@ -1,7 +1,7 @@
 import { extendFragment } from 'meteor/vulcan:core';
 
 extendFragment('PostsList', `
-  problemType
+  # problemType
   placeName
   placeId
   placeLat
@@ -9,7 +9,7 @@ extendFragment('PostsList', `
 `);
 
 extendFragment('PostsPage', `
-  problemType
+  # problemType
   placeName
   placeId
   placeLat

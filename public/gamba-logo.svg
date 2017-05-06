@@ -1,0 +1,34 @@
+<svg width="526" height="150" viewBox="0 0 526 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>gamba-logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1354 -2113)" figma:type="canvas">
+<g id="gamba-logo" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(0.990268 0.139173 -0.139173 0.990268 1851.23 2113)" fill="#3C4645"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(1747.01 2152.39)" fill="#3C4645"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(1644.94 2117.39)" fill="#3C4645"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(1525.84 2150.66)" fill="#3C4645"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path4_fill" transform="translate(1436.93 2152.39)" fill="#3C4645"/>
+</g>
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path5_fill" transform="translate(1354 2152.39)" fill="#3C4645"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 10.3533 115.56L 24.5891 115.56L 28.601 7.56L 15.4006 0L 0 7.38L 3.75308 108.9L 10.3533 115.56ZM 2.71775 145.08L 20.8628 146.522L 26.0127 136.8L 26.0127 122.58L 10.2239 122.58L 2.71775 127.26L 2.71775 145.08Z"/>
+<path id="path1_fill" d="M 70.848 62.784L 74.592 11.232L 63.36 0L 5.47202 0L 5.47202 10.512L 45.936 13.68L 46.656 25.488L 6.336 28.944L 0 38.88L 3.02402 69.552L 18.72 77.04L 50.256 67.536L 55.872 74.88L 81.648 74.88L 81.648 64.368L 70.848 62.784ZM 48.816 60.48L 25.632 61.632L 26.784 38.592L 47.232 33.696L 48.816 60.48Z"/>
+<path id="path2_fill" d="M 74.16 32.688L 40.896 40.608L 42.192 4.752L 27.216 0L 0 5.616L 0 15.984L 11.952 15.984L 16.272 109.872L 26.64 109.872L 36.288 103.68L 66.096 112.176L 85.248 103.392L 89.568 45.504L 74.16 32.688ZM 60.336 48.816L 63.36 95.904L 39.024 95.904L 40.608 50.112L 60.336 48.816Z"/>
+<path id="path3_fill" d="M 113.472 64.512L 117.216 12.672L 104.112 0L 65.664 7.63201L 58.752 0L 23.328 6.912L 16.848 0L 0 3.6L 3.60001 70.848L 11.952 76.608L 26.064 76.608L 28.368 18.144L 47.376 17.424L 50.832 76.608L 67.68 76.608L 70.128 18.144L 88.416 17.424L 91.584 69.84L 98.352 76.608L 124.272 76.608L 124.272 66.096L 113.472 64.512Z"/>
+<path id="path4_fill" d="M 70.8484 62.784L 74.5924 11.232L 63.3604 0L 5.472 0L 5.472 10.512L 45.9364 13.68L 46.6564 25.488L 6.33601 28.944L 0 38.88L 3.024 69.552L 18.7204 77.04L 50.2564 67.536L 55.8724 74.88L 81.6484 74.88L 81.6484 64.368L 70.8484 62.784ZM 48.8164 60.48L 25.6324 61.632L 26.7844 38.592L 47.2324 33.696L 48.8164 60.48Z"/>
+<path id="path5_fill" d="M 71.712 80.784L 18.72 76.032L 22.032 65.52L 36 68.544L 67.536 61.632L 70.992 16.272L 51.264 11.952L 71.424 10.512L 71.424 0L 13.968 0L 0 11.664L 3.744 61.632L 12.096 63.504L 1.296 76.464L 7.344 92.88L 64.656 105.696L 75.168 94.32L 71.712 80.784ZM 47.52 55.728L 23.904 55.728L 25.92 13.68L 45.072 12.384L 47.52 55.728Z"/>
+</defs>
+</svg>

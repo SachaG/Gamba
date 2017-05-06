@@ -1,19 +1,13 @@
-<img src="https://d3vv6lp55qjaqc.cloudfront.net/items/2B3C1z2V2y421p2I0P42/vulcan-logo-noborder.png" width="200">
+# Gamba!
 
-# Vulcan (formerly Telescope)
+### Your daily dose of climbing video inspiration
 
-[Version 1.3.2](https://github.com/TelescopeJS/Telescope/releases)
+This is the codebase for [gambaclimbing.com](http://gambaclimbing.com), a directory of climbing videos. 
 
-This is the Apollo/GraphQL version of Telescope, now known as [Vulcan](http://vulcanjs.org). [You can find the documentation here](http://docs.vulcanjs.org/).
+Gamba! is open-source and based on the [Vulcan](http://vulcanjs.org) framework, using the [Fuji](https://github.com/VulcanJS/Fuji-Theme) theme. 
 
-### Links
+To get started: clone this repo (instead of the main Vulcan repo), then refer to the [Vulcan documentation](http://docs.vulcanjs.org/#Install).
 
-- [Vulcan Homepage](http://vulcanjs.org)
-- [Documentation](http://docs.vulcanjs.org)
-- [Old Telescope Homepage](http://telescopeapp.org)
+### Fuji Theme
 
-### Other Versions
-
-You can find the older, non-Apollo version of Telescope Nova on the [nova-classic](https://github.com/TelescopeJS/Telescope/tree/nova-classic) branch. 
-
-You can find the even older, non-React version of Telescope on the [legacy](https://github.com/TelescopeJS/Telescope/tree/legacy) branch.
+It's recommended you clone the Fuji theme repo locally into another directory outside of the Gamba! repo. You can then use the [`METEOR_PACKAGE_DIRS`](https://docs.meteor.com/environment-variables.html#METEOR-PACKAGE-DIRS) environment variable to help Meteor locate the theme package. 

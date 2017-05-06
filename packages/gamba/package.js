@@ -20,9 +20,8 @@ Package.onUse( function(api) {
     'lib/stylesheets/style.scss'
   ], ['client']);
 
-  // api.addAssets([
-  //   'lib/server/emails/customNewPost.handlebars',
-  //   'lib/server/emails/customEmail.handlebars'
-  // ], ['server']);
-
+  api.addAssets([
+    'lib/assets/markdown/about.md'
+  ], ['server', 'client']);
+  
 });

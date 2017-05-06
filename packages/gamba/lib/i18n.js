@@ -5,5 +5,6 @@
 import { addStrings } from 'meteor/vulcan:core';
 
 addStrings('en', {
-  "posts.placeName": "Location"
+  "posts.placeName": "Location",
+  "posts.categories": "Tags"
 });

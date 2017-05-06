@@ -19,7 +19,7 @@ class GambaPostsItem extends getRawComponent('FujiPostsItem') {
         <div className="posts-item-image">
           
           {post.thumbnailUrl ? <Components.PostsThumbnail post={post}/> : null}
-
+          
           {post.media && post.media.duration ? <span className="posts-item-duration">{this.formatDuration(post.media.duration)}</span> : null}
 
           {Posts.options.mutations.edit.check(this.props.currentUser, post) ? this.renderActions() : null}
