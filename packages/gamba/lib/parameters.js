@@ -4,9 +4,9 @@ import escapeStringRegexp from 'escape-string-regexp';
 // Category Posts Parameters
 // Add a "categories" property to terms which can be used to filter *all* existing Posts views. 
 function PostsPlaceParameter(parameters, terms, apolloClient) {
-  const place = terms.place;
-  if (place) {
-    parameters.selector = {...parameters.selector, placeName: decodeURIComponent(place)}
+  const placeId = terms.placeId;
+  if (placeId) {
+    parameters.selector = {...parameters.selector, placeId: decodeURIComponent(placeId)}
   }
   return parameters;
 }

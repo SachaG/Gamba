@@ -1,5 +1,5 @@
 import Posts from 'meteor/vulcan:posts';
-import Place from 'meteor/vulcan:forms-place';
+import { PlaceControl } from 'meteor/vulcan:forms-place';
 // import Tags from 'meteor/vulcan:forms-tags';
 import ReactSelectPlus from './components/ReactSelectPlus.jsx';
 import React from 'react';
@@ -56,7 +56,7 @@ Posts.addField([
     fieldName: 'placeName',
     fieldSchema: {
       type: String,
-      control: Place,
+      control: PlaceControl,
       optional: true,
       insertableBy: ['members'],
       editableBy: ['members'],
@@ -74,26 +74,4 @@ Posts.addField([
       viewableBy: ['guests'],
     }
   },
-  {
-    fieldName: 'placeLat',
-    fieldSchema: {
-      type: Number,
-      hidden: true,
-      optional: true,
-      insertableBy: ['members'],
-      editableBy: ['members'],
-      viewableBy: ['guests'],
-    }
-  },
-  {
-    fieldName: 'placeLng',
-    fieldSchema: {
-      type: Number,
-      hidden: true,
-      optional: true,
-      insertableBy: ['members'],
-      editableBy: ['members'],
-      viewableBy: ['guests'],
-    }
-  }
 ]);

@@ -41,7 +41,7 @@ class GambaPostsItem extends getRawComponent('FujiPostsItem') {
           {post.placeName ? 
 
             <div className="posts-item-place">
-              <Link to={`/?place=${encodeURIComponent(post.placeName)}`}><Components.Icon name="place" /> {post.placeName}</Link>
+              <Link to={`/places/${encodeURIComponent(post.placeId)}`}><Components.Icon name="place" /> {post.placeName}</Link>
             </div> :
 
             null
