@@ -1,13 +1,11 @@
 import { registerFragment, extendFragment } from 'meteor/vulcan:core';
 
 extendFragment('PostsList', `
-  # problemType
   placeName
   placeId
 `);
 
 extendFragment('PostsPage', `
-  # problemType
   placeName
   placeId
 `);

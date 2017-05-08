@@ -1,11 +1,11 @@
 import { Components, withDocument } from 'meteor/vulcan:core';
 import React, { PropTypes, Component } from 'react';
-import Places from 'meteor/vulcan:forms-place';
+import Places from 'meteor/vulcan:places';
 import PlaceInfo from './PlaceInfo.jsx';
 
-const Place = ({documentId, document}) => 
+const Place = ({documentId, document, loading}) => 
   <div className="place">
-    <PlaceInfo {...document} />
+    {loading ? <Components.Loading /> : <PlaceInfo {...document} />}
     <Components.PostsList terms={{placeId: documentId}} showHeader={false} />
   </div>
 

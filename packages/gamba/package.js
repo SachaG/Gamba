@@ -7,7 +7,7 @@ Package.onUse( function(api) {
   api.use([
     'vulcan:core',
     'vulcan:theme-fuji',
-    'vulcan:forms-place',
+    'vulcan:places',
     'vulcan:forms-tags',
 
     'fourseven:scss@4.5.0',
