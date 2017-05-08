@@ -1,13 +1,13 @@
 Package.describe({
-  name: "vulcan:forms-place",
-  summary: "Google Maps Places Autocomplete package.",
-  version: "1.3.2",
+  name: 'vulcan:forms-place',
+  summary: 'Google Maps Places Autocomplete package.',
+  version: '1.3.2',
   git: 'https://github.com/vulcanjs/vulcan.git'
 });
 
 Package.onUse( function(api) {
 
-  api.versionsFrom("METEOR@1.0");
+  api.versionsFrom('METEOR@1.0');
 
   api.use([
     'vulcan:core@1.3.2',
@@ -16,9 +16,10 @@ Package.onUse( function(api) {
   ]);
 
   api.addFiles([
-    "lib/style.scss"
-  ], "client");
+    'lib/style.scss'
+  ], 'client');
 
-  api.mainModule("lib/modules.js", ["client", "server"]);
+  api.mainModule('lib/client/main.js', 'client');
+  api.mainModule('lib/server/main.js', 'server');
 
 });
