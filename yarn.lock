@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@google/maps@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@google/maps/-/maps-0.3.1.tgz#3f10303033e53d3fc7bb9d6268de2266803bf781"
+
 "@types/async@^2.0.31":
   version "2.0.37"
   resolved "https://registry.yarnpkg.com/@types/async/-/async-2.0.37.tgz#7bf2ffba03ae965df99f21d4d41be340d6a322ab"
@@ -134,7 +138,7 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-apollo-client@^1.0.2, apollo-client@^1.1.1:
+apollo-client@^1.0.0-rc.9, apollo-client@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-1.1.1.tgz#b5fc0b92ca16ac3adcab4cf19ddb871ccfa65652"
   dependencies:
@@ -1748,6 +1752,10 @@ globby@^5.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+googleplaces@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/googleplaces/-/googleplaces-0.6.1.tgz#ca7ba2f42181cb6bc06d458f51ed265d03e91e72"
+
 graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -1785,6 +1793,10 @@ graphql-server-express@^0.6.0:
 graphql-server-module-graphiql@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/graphql-server-module-graphiql/-/graphql-server-module-graphiql-0.6.0.tgz#e37634b05f000731981e8ed13103f9a5861e5da0"
+
+graphql-tag@^1.3.1:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-1.3.2.tgz#7abb3a8fd9f3415d07163314ed237061c785b759"
 
 graphql-tag@^2.0.0:
   version "2.0.0"
@@ -2971,13 +2983,13 @@ react-addons-pure-render-mixin@^15.4.1:
     fbjs "^0.8.4"
     object-assign "^4.1.0"
 
-react-apollo@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-1.1.2.tgz#2f8a8d85306805feda242241e0a4d5864664cf4d"
+react-apollo@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-1.0.0.tgz#7fcc14adcc7aa4ca4d9e04ddedf50b8fb74daa91"
   dependencies:
-    apollo-client "^1.0.2"
+    apollo-client "^1.0.0-rc.9"
     graphql-anywhere "^3.0.0"
-    graphql-tag "^2.0.0"
+    graphql-tag "^1.3.1"
     hoist-non-react-statics "^1.2.0"
     invariant "^2.2.1"
     lodash.flatten "^4.2.0"
@@ -2985,9 +2997,8 @@ react-apollo@^1.1.2:
     lodash.isobject "^3.0.2"
     lodash.pick "^4.4.0"
     object-assign "^4.0.1"
-    prop-types "^15.5.8"
   optionalDependencies:
-    react-dom "0.14.x || 15.* || ^15.0.0 || ^16.0.0-alpha"
+    react-dom "0.14.x || 15.* || ^15.0.0"
 
 react-bootstrap-datetimepicker@0.0.22:
   version "0.0.22"
@@ -3040,7 +3051,7 @@ react-dnd@^2.0.2:
     invariant "^2.1.0"
     lodash "^4.2.0"
 
-"react-dom@0.14.x || 15.* || ^15.0.0 || ^16.0.0-alpha", react-dom@^15.4.1:
+"react-dom@0.14.x || 15.* || ^15.0.0", react-dom@^15.4.1:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.4.2.tgz#015363f05b0a1fd52ae9efdd3a0060d90695208f"
   dependencies:

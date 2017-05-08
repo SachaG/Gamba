@@ -10,6 +10,7 @@
     "lint": "eslint --cache --ext .jsx,js packages"
   },
   "dependencies": {
+    "@google/maps": "^0.3.1",
     "analytics-node": "^2.1.1",
     "apollo-client": "^1.1.1",
     "babel-runtime": "^6.18.0",
@@ -25,6 +26,7 @@
     "express": "^4.14.0",
     "formsy-react": "^0.18.1",
     "formsy-react-components": "^0.8.1",
+    "googleplaces": "^0.6.1",
     "graphql": "^0.9.1",
     "graphql-anywhere": "^3.0.1",
     "graphql-date": "^1.0.2",
@@ -48,7 +50,7 @@
     "optics-agent": "^1.0.5",
     "react": "^15.4.1",
     "react-addons-pure-render-mixin": "^15.4.1",
-    "react-apollo": "^1.1.2",
+    "react-apollo": "1.0.0",
     "react-bootstrap": "^0.30.7",
     "react-bootstrap-datetimepicker": "0.0.22",
     "react-cookie": "^0.4.6",
