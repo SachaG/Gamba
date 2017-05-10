@@ -12,4 +12,4 @@ Hearing “Gamba!” makes you want to push yourself to the limit, and encourage
 
 ### Credits
 
-This site is built and maintained by [Sacha Greif](http://sachagreif.com). [Follow me on Twitter](http://twitter.com/sachagreif) or [get in touch](hello@gambaclimbing.com).
+This site is built and maintained by [Sacha Greif](http://sachagreif.com). [Follow me on Twitter](http://twitter.com/sachagreif) or [get in touch](mailto:hello@gambaclimbing.com).

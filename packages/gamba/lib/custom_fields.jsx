@@ -6,14 +6,6 @@ import React from 'react';
 import {getCategoriesAsNestedOptions} from 'meteor/vulcan:categories';
 
 Posts.addField([
-  // {
-  //   fieldName: 'thumbnailUrl',
-  //   fieldSchema: {
-  //     type: String,
-  //     optional: true,
-  //     hidden: true
-  //   }
-  // },
   {
     fieldName: 'categories',
     fieldSchema: {
@@ -29,29 +21,6 @@ Posts.addField([
       placeholder: 'Select one or more tags…',
     }
   },
-  // {
-  //   fieldName: 'problemType',
-  //   fieldSchema: {
-  //     type: Number,
-  //     optional: true,
-  //     viewableBy: ['guests'],
-  //     insertableBy: ['members'],
-  //     editableBy: ['members'],
-  //     control: 'radiogroup',
-  //     form: {
-  //       options: [
-  //         {
-  //           value: 1,
-  //           label: 'Outdoors'
-  //         },
-  //         {
-  //           value: 2,
-  //           label: 'Gym'
-  //         },
-  //       ],
-  //     },
-  //   }
-  // },
   {
     fieldName: 'placeName',
     fieldSchema: {

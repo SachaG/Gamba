@@ -8,6 +8,10 @@ const Footer = props => {
     <div className="footer">
       <Link to='/about'>About</Link>
       &nbsp;|&nbsp;
+      <a href="https://twitter.com/GambaClimbing" target="_blank">Follow us on Twitter</a>
+      &nbsp;|&nbsp;
+      <a href="https://www.facebook.com/Gamba-1915068235397418/" target="_blank">Like us on Facebook</a>
+      &nbsp;|&nbsp;
       <a href="http://vulcanjs.org" target="_blank"><FormattedMessage id="app.powered_by"/></a>
     </div>
   )

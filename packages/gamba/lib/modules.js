@@ -9,8 +9,6 @@ import "./custom_fields.jsx";
 import "./i18n.js";
 import "./icons.js";
 import "./parameters.js";
+import "./components.js";
 
-// custom components
-import "./components/PostsItem.jsx";
-import "./components/Footer.jsx";
 

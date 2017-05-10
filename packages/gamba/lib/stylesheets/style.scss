@@ -57,8 +57,78 @@ $medium-break: 1000px;
   }
 }
 
-.header{
-  // border-bottom: 2px solid #BCAD98;
+//////////////////////////////////////////////////////
+// Colors                                           //
+//////////////////////////////////////////////////////
+
+$new-primary-color: #A1DAEA;
+
+a{
+  &:hover{
+    color: $new-primary-color;
+  }
+}
+.users-account-menu, .users-menu{
+  .dropdown-toggle{
+    &:hover, &:active, &:focus{
+      color: $new-primary-color
+    }
+  }
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background: $new-primary-color;
+}
+.posts-categories{
+  .posts-category, .dropdown-item a{
+    &:hover{
+      background: $new-primary-color;
+      border-color: $new-primary-color;
+    }
+  }
+}
+.category-heading-item{
+  &.category-heading-item-parent:hover{
+    background: $new-primary-color;
+    &:after{
+      border-left-color: $new-primary-color;
+    }
+  }
+}
+
+.btn-primary, .btn-primary.active, button{
+  background-color: $new-primary-color;
+}
+.dropdown-item{
+  &.active, &.active:hover{
+    background: $new-primary-color;
+  }
+}
+.nav-user, .nav-new-post{
+  @include small{
+    .btn{
+      &:hover{
+        background: $new-primary-color;
+      }
+    }
+  }
+}
+.sidebar-toggle{
+  &:hover{
+    background: $new-primary-color;
+  }
+}
+.newsletter{
+  background: $new-primary-color;
+}
+.posts-load-more{
+  background: $new-primary-color;
+}
+//////////////////////////////////////////////////////
+// Header                                           //
+//////////////////////////////////////////////////////
+
+.header-wrapper{
+  border: 0;
 }
 
 .logo-image{
@@ -76,6 +146,11 @@ $medium-break: 1000px;
   opacity: 0.6;
 }
 
+
+//////////////////////////////////////////////////////
+// Posts Item                                       //
+//////////////////////////////////////////////////////
+
 .posts-item{
   display: flex;
   flex-direction: column;
@@ -89,12 +164,10 @@ $medium-break: 1000px;
 }
 
 .posts-item-title{
-  padding: $spacing/2;
-  margin-bottom: 0;
 }
 
 .posts-categories{
-  padding: 0 $spacing/2;
+  display: none;
 }
 
 .posts-item-spacer{
@@ -130,22 +203,8 @@ $medium-break: 1000px;
   }
 }
 
-.suggest-category-link{
-  margin-bottom: 1rem;
-  display: block;
-  margin-top: -0.5rem;
-  font-size: 14px;
-  @include medium-large{
-    margin-left: 25.8%;
-  }
-}
-
-.categories-node-level-1{
-  &>.category-menu-item{
-    .category-menu-item-title{
-      pointer-events: none;
-    }
-  }
+.posts-page .posts-categories{
+  display: flex;
 }
 
 //////////////////////////////////////////////////////
@@ -185,4 +244,43 @@ $medium-break: 1000px;
       margin-bottom: 0;
     }
   }
+}
+
+//////////////////////////////////////////////////////
+// Other                                            //
+//////////////////////////////////////////////////////
+
+.suggest-category-link{
+  margin-bottom: 1rem;
+  display: block;
+  margin-top: -0.5rem;
+  font-size: 14px;
+  @include medium-large{
+    margin-left: 25.8%;
+  }
+}
+
+.categories-node-level-1{
+  &>.category-menu-item{
+    .category-menu-item-title{
+      pointer-events: none;
+    }
+  }
+}
+
+body{
+  background-image: url('/gamba-background-lite.jpg');
+  background-size: cover;
+}
+
+.footer{
+  background: rgba(0,0,0,0.2);
+  border: 0;
+  a:hover{
+    color: white;
+  }
+}
+
+.newsletter{
+  background-color: rgba(146, 220, 236, 0.5);
 }
