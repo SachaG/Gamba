@@ -3,6 +3,7 @@ Let's import all our files here.
 */
 
 // general business logic of this customization
+import "./helpers.js";
 import "./fragments.js";
 import "./routes.jsx";
 import "./custom_fields.jsx";
