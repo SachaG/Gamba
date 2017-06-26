@@ -11,3 +11,7 @@ To get started: clone this repo (instead of the main Vulcan repo), then refer to
 ### Fuji Theme
 
 It's recommended you clone the Fuji theme repo locally into another directory outside of the Gamba! repo. You can then use the [`METEOR_PACKAGE_DIRS`](https://docs.meteor.com/environment-variables.html#METEOR-PACKAGE-DIRS) environment variable to help Meteor locate the theme package. 
+
+### Usage
+
+This is a **complete codebase** for [Gamba Climbing](http://gambaclimbing.com), and *not* a theme, and is provided for educational purposes only (or for people wanting to contribute to Gamba Climbing). Feel free to fork it and take inspiration from it, but please do not reuse it as is for your own projects. 
